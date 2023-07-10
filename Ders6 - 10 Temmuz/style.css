@@ -1,0 +1,39 @@
+body {
+  background-color: aliceblue;
+  /* background-image: url(images/restorant1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.restorant-gorsel img {
+  height: 200px;
+  width: 250px;
+
+  border-radius: 20px;
+
+  margin-right: 16px;
+
+  /* border-width: 2px;
+  border-color: black;
+  border-style: solid; */
+
+  border: 2px solid black;
+
+  /* opacity: 50%; */
+}
+
+h1 {
+  text-align: center;
+  font-size: 46px;
+  margin-bottom: 0px;
+}
+
+h6 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+p {
+  text-align: center;
+}
