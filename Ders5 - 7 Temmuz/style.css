@@ -1,0 +1,45 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #7895cb;
+  font-size: 54px;
+}
+
+h4 {
+  text-align: center;
+  /* background-color: black; */
+}
+
+.butonlar {
+  text-align: center;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  font-size: 18px;
+  background-color: #1b6b93;
+  color: white;
+  border-radius: 20px;
+
+  margin-right: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+
+  padding-bottom: 10px;
+}
+
+.footerBaslik {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
