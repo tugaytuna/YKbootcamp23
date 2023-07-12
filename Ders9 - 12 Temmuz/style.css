@@ -1,0 +1,68 @@
+body {
+  background-color: aliceblue;
+  /* background-image: url(images/restorant1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.restorant-gorsel img {
+  height: 200px;
+  width: 250px;
+
+  border-radius: 20px;
+
+  margin-right: 16px;
+
+  /* border-width: 2px;
+  border-color: black;
+  border-style: solid; */
+
+  border: 2px solid black;
+
+  /* opacity: 50%; */
+}
+
+h1 {
+  text-align: center;
+  font-size: 46px;
+  margin-bottom: 0px;
+
+  text-decoration: underline;
+}
+
+h6 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+p {
+  text-align: center;
+
+  font-family: "Freehand", cursive;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+nav a {
+  background-color: #fbd85d;
+  padding: 10px 20px;
+
+  border-radius: 20px 0px;
+
+  /* border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+
+  margin-right: 15px;
+
+  text-decoration: none;
+
+  color: #2b2730;
+
+  font-weight: bold;
+}
