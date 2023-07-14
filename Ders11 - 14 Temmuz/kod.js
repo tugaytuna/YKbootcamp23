@@ -1,13 +1,12 @@
-console.log("ilk js kodu!");
-console.log("tugay tuna");
+let isim = "tugay";
+let soyisim = "tuna";
 
-var isim = "tugay";
-var yas = 18;
+let fullName = isim + " " + soyisim;
 
-let sacRengi = "kırmızı";
+isim = "ataberk";
 
-isim = "tuna";
+console.log(fullName);
 
-console.log(isim);
-console.log(yas);
-console.log(sacRengi);
+fullName = isim + " " + soyisim;
+
+console.log(fullName);
