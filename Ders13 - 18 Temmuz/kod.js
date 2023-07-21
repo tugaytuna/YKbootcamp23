@@ -10,6 +10,7 @@ function topla() {
   yas += 5;
 
   islemYap();
+  console.log("test1");
 }
 
 function islemYap() {
@@ -21,7 +22,7 @@ function islemYap() {
 
 console.log(yas);
 topla();
-
+console.log("test2");
 alert("Giriş Yapıldı!");
 
 // if (isim == "tugay" && soyisim == "tuna") {
