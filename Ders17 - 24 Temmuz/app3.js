@@ -14,12 +14,18 @@ function welcome(isim, yas) {
   }
 }
 
-function bilgiler(isim, yas) {
-  console.log("İsim: " + isim);
+function bilgiler(isim = "Misafir", soyisim, yas = 0) {
+  console.log("İsim: " + bicimlendirme(isim));
+  console.log("Soyisim: " + bicimlendirme(soyisim));
   console.log("Yaş: " + yas);
 }
-//function için default değer belirleme örneği
 
 // welcome("tugay", 25);
 
-bilgiler("tugay", 18);
+function bicimlendirme(yazi = "") {
+  return yazi.toUpperCase();
+}
+
+bilgiler("tuGay", "tuNA", 18);
+
+console.log(bicimlendirme("arda"));
