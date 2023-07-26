@@ -18,5 +18,3 @@ function butonTiklandi() {
   //   anasayfa_metin.style = "color: red";
   anasayfa_metin.innerHTML = "Javascript Harika!" + isim;
 }
-
-console.log();
