@@ -1,31 +1,43 @@
-function welcome(isim, yas) {
-  console.log("Web Sitemize hoş geldin " + isim + "!");
+// str string - metinsel ifade
+// int integer  - rakamlardan oluşan sayısal ifade
+// bool boolean - true ya da false - 1 ya da 0 - doğru ya da yanlış
 
-  if (yas >= 18) {
-    console.log(
-      "Yaşınız " + yas + " olduğu için sitemize giriş yapabilirsiniz."
-    );
-  } else {
-    console.log(
-      "Yaşınız " +
-        yas +
-        " olduğu için sitemize giriş yapamazsınız. 18 yaşından küçüksünüz!"
-    );
-  }
+// dizi - array
+
+let dizi1 = ["tugay", "arda", "bahadır", "ataberk", "ali", 1, 4, 6];
+let dizi2 = [];
+
+let sayi = 2;
+
+console.log(dizi1);
+
+console.log(dizi1[2]);
+console.log(dizi1[sayi]);
+
+console.log(dizi1.length);
+
+dizi1.push("tolga");
+console.log(dizi1);
+
+dizi1[1] = "ardacan";
+
+console.log(dizi1);
+
+// dizi elemanlarını tek tek ekrana yazdırmak
+
+// console.log("Dizinin 1. elemanı:", dizi1[0]);
+// console.log("Dizinin 2. elemanı:", dizi1[1]);
+// console.log("Dizinin 3. elemanı:", dizi1[2]);
+// console.log("Dizinin 4. elemanı:", dizi1[3]);
+// console.log("Dizinin 5. elemanı:", dizi1[4]);
+// console.log("Dizinin 6. elemanı:", dizi1[5]);
+
+// değişken oluşturma ve değer verme ; koşul ifadesi ; koşulu bozmaya çalışan ifade
+
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
+
+for (let i = 0; i < dizi1.length; i++) {
+  console.log(dizi1[i]);
 }
-
-function bilgiler(isim = "Misafir", soyisim, yas = 0) {
-  console.log("İsim: " + bicimlendirme(isim));
-  console.log("Soyisim: " + bicimlendirme(soyisim));
-  console.log("Yaş: " + yas);
-}
-
-// welcome("tugay", 25);
-
-function bicimlendirme(yazi = "") {
-  return yazi.toUpperCase();
-}
-
-bilgiler("tuGay", "tuNA", 18);
-
-console.log(bicimlendirme("arda"));
