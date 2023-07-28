@@ -1,0 +1,51 @@
+body {
+  background-color: #967e76;
+  /* color: white; */
+}
+
+h1 {
+  font-size: 44px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+footer h5 {
+  font-size: 24px;
+  margin: 0px;
+  text-decoration: underline;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  /* display: inline-block; */
+
+  font-size: 14px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+footer ul li {
+  margin-top: 6px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.testClass {
+  background-color: red;
+}
+
+#input1 {
+  text-align: center;
+}
