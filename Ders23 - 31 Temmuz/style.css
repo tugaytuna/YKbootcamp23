@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;
+}
+
+.baslik {
+  font-size: 48px;
+}
+
+.user1 {
+  background-color: red;
+  height: 200px;
+  width: 400px;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+.user2 {
+  background-color: white;
+  height: 180px;
+  width: 360px;
+  color: black;
+  border-style: solid;
+  border-width: 4px;
+  border-color: red;
+}
+
+.stokyok {
+  opacity: 50%;
+  color: gray;
+}
