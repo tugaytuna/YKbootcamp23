@@ -1,0 +1,15 @@
+.button1 {
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.label1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.green {
+  color: white;
+  background-color: green;
+  border-color: white;
+}
