@@ -13,12 +13,12 @@ function App() {
 
   function azalt() {
     setCount(count - 1);
-    console.log(count);
   }
 
   return (
     <div>
       <h1>Counter</h1>
+      {count == 7 ? <h2>Şanslı Sayım!</h2> : <div></div>}
       <button onClick={azalt} className="button1">
         -
       </button>
