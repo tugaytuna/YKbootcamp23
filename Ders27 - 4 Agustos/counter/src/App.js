@@ -18,7 +18,8 @@ function App() {
   return (
     <div>
       <h1>Counter</h1>
-      {count == 7 ? <h2>Şanslı Sayım!</h2> : <div></div>}
+      {/* {count == 7 ? <h2>Şanslı Sayım!</h2> : <div></div>} */}
+      {count == 7 && <h2>Şanslı Sayım!</h2>}
       <button onClick={azalt} className="button1">
         -
       </button>
