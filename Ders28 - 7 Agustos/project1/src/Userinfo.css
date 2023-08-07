@@ -1,0 +1,22 @@
+.baslik1 {
+  color: blue;
+  margin: 5px 15px;
+}
+
+.paragraf1 {
+  color: blue;
+  margin-left: 15px;
+}
+
+.userCard {
+  background-color: aliceblue;
+  margin: 25px;
+  padding: 5px;
+}
+
+.uyari {
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: red;
+}
