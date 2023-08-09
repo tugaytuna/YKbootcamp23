@@ -1,0 +1,28 @@
+h1 {
+  margin-left: 15px;
+}
+
+.buttonArti {
+  padding: 15px 25px;
+  margin: 15px;
+  background-color: green;
+  color: white;
+  border-color: white;
+}
+
+.buttonEksi {
+  padding: 15px 25px;
+  margin: 15px;
+  background-color: red;
+  color: white;
+}
+
+label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.urunIsimleri {
+  text-decoration: underline;
+  color: green;
+}

@@ -1,0 +1,11 @@
+.card {
+  background-color: blanchedalmond;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid rgb(126, 245, 189);
+}
+
+.gorsel1 {
+  height: 100px;
+  width: 100px;
+}
