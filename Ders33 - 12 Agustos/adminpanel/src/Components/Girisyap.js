@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./GirisyapStyle.css";
 import UserList from "./UserList";
 
@@ -38,11 +38,50 @@ function Girisyap() {
 
   const [login, setLogin] = useState(false);
 
+  const [userId, setUserId] = useState();
+
+  useEffect(() => {
+    if (login) {
+      console.log("giriş yapıldı");
+    } else if (login == false) {
+      console.log("giriş yapılmadı!");
+    }
+  }, [login]);
+
+  function girisYapForm() {
+    return (
+      <div>
+        <input
+          onChange={(e) => {
+            setUsername(e.target.value);
+          }}
+          value={username}
+          type="text"
+          name=""
+          id=""
+          placeholder="kullanıcı adı..."
+        />
+        <input
+          onChange={(e) => {
+            setPassword(e.target.value);
+          }}
+          value={password}
+          type="password"
+          name=""
+          id=""
+          placeholder="şifre..."
+        />
+        <button onClick={butonTiklandi}>Giriş Yap</button>
+      </div>
+    );
+  }
+
   function butonTiklandi() {
-    users.map((item) => {
+    users.map((item, index) => {
       if (item.username == username) {
         if (item.password == password) {
           setLogin(true);
+          setUserId(index);
         }
       }
     });
@@ -51,41 +90,19 @@ function Girisyap() {
   return (
     <div className="maindiv">
       <h1>Giriş Yap</h1>
-      {!login ? (
-        <div>
-          <input
-            onChange={(e) => {
-              setUsername(e.target.value);
-            }}
-            value={username}
-            type="text"
-            name=""
-            id=""
-            placeholder="kullanıcı adı..."
-          />
-          <input
-            onChange={(e) => {
-              setPassword(e.target.value);
-            }}
-            value={password}
-            type="password"
-            name=""
-            id=""
-            placeholder="şifre..."
-          />
-          <button onClick={butonTiklandi}>Giriş Yap</button>
-        </div>
-      ) : (
-        users.map((item) => {
-          return (
-            <UserList
-              fullname={item.fullname}
-              languages={item.language}
-              admin={item.admin}
-            ></UserList>
-          );
-        })
-      )}
+      {!login
+        ? girisYapForm()
+        : users[userId].admin &&
+          users.map((item, index) => {
+            return (
+              <UserList
+                key={index}
+                fullname={item.fullname}
+                languages={item.language}
+                admin={item.admin}
+              ></UserList>
+            );
+          })}
     </div>
   );
 }
