@@ -22,3 +22,12 @@
   color: yellow;
   text-decoration: underline;
 }
+
+.admin {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.buttonIncele {
+  padding: 6px 25px;
+}
