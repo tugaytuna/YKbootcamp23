@@ -1,0 +1,14 @@
+.maindiv {
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+input {
+  text-align: center;
+  margin: 10px;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 10px;
+}
