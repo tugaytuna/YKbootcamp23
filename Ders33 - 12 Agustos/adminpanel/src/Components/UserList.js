@@ -5,6 +5,7 @@ import "./UserListStyle.css";
 function UserList({ fullname, languages, admin }) {
   const [toggle, setToggle] = useState("Göster");
   function toggleSwitch() {
+    console.log(fullname);
     if (toggle == "Göster") {
       setToggle("Gizle");
     } else if (toggle == "Gizle") {
