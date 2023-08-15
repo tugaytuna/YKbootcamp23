@@ -16,7 +16,7 @@ function Girisyap() {
       username: "ataberk",
       password: 555,
       language: ["Javascript", "CSS", "React"],
-      admin: true,
+      admin: false,
     },
     {
       fullname: "Ardacan Yılmaz",
@@ -31,6 +31,13 @@ function Girisyap() {
       password: 888,
       language: ["Dotnet", "Java", "SQL", "PHP"],
       admin: true,
+    },
+    {
+      fullname: "Aykut Yılmaz",
+      username: "aykut",
+      password: 444,
+      language: ["Java", "GO", "Dart"],
+      admin: false,
     },
   ]);
   const [username, setUsername] = useState("");
