@@ -30,4 +30,10 @@
 
 .buttonIncele {
   padding: 6px 25px;
+  margin: 6px 10px;
+}
+
+.redButton {
+  background-color: red;
+  color: white;
 }

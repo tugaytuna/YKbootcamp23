@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import "./GirisyapStyle.css";
 import UserList from "./UserList";
+import kullanicilar from "./kullanicilar";
 
 function Girisyap() {
+  console.log(kullanicilar);
+
   const [users, setUsers] = useState([
     {
       fullname: "Tugay Tuna",
@@ -85,7 +88,7 @@ function Girisyap() {
   }
 
   function butonTiklandi() {
-    users.map((item, index) => {
+    kullanicilar.map((item, index) => {
       if (item.username == username) {
         if (item.password == password) {
           setLogin(true);
@@ -98,7 +101,7 @@ function Girisyap() {
   return (
     <div className="maindiv">
       <h1>Giriş Yap</h1>
-
+      {/* <button onClick={testFonksiyon}>test button</button> */}
       {!login
         ? girisYapForm()
         : users[userId].admin &&
