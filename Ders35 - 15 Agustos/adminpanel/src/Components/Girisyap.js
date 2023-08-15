@@ -4,7 +4,7 @@ import UserList from "./UserList";
 import kullanicilar from "./kullanicilar";
 
 function Girisyap() {
-  console.log(kullanicilar);
+  // console.log(kullanicilar);
 
   const [users, setUsers] = useState([
     {
@@ -88,7 +88,7 @@ function Girisyap() {
   }
 
   function butonTiklandi() {
-    kullanicilar.map((item, index) => {
+    users.map((item, index) => {
       if (item.username == username) {
         if (item.password == password) {
           setLogin(true);
@@ -98,10 +98,22 @@ function Girisyap() {
     });
   }
 
+  // function testFonksiyon(userId) {
+  //   console.log(users);
+
+  //   let usersTemp = [];
+  //   users.map((item, index) => {
+  //     if (index != userId) {
+  //       usersTemp.push(item);
+  //     }
+  //   });
+  //   setUsers(usersTemp);
+  // }
+
   return (
     <div className="maindiv">
       <h1>Giriş Yap</h1>
-      {/* <button onClick={testFonksiyon}>test button</button> */}
+
       {!login
         ? girisYapForm()
         : users[userId].admin &&

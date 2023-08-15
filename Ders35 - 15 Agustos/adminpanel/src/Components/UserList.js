@@ -36,9 +36,7 @@ function UserList({ fullname, languages, admin }) {
           <button onClick={toggleSwitch} className="buttonIncele">
             {toggle ? "Gizle" : "Göster"}
           </button>
-          <button onClick={deleteClicked} className="buttonIncele redButton">
-            Sil
-          </button>
+          <button className="buttonIncele redButton">Sil</button>
         </div>
       )}
     </div>
