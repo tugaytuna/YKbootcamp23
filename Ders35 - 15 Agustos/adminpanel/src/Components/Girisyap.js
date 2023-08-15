@@ -91,11 +91,7 @@ function Girisyap() {
   return (
     <div className="maindiv">
       <h1>Giriş Yap</h1>
-      <UserList
-        admin={true}
-        fullname={"Tugay"}
-        languages={["C#", "Javascript"]}
-      ></UserList>
+
       {!login
         ? girisYapForm()
         : users[userId].admin &&
