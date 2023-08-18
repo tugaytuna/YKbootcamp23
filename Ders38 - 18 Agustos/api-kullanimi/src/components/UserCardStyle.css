@@ -1,0 +1,25 @@
+.cardMain {
+  background-color: #f3fde8;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #a8df8e;
+  border-radius: 20px;
+  /* min-width: 200px;
+  min-height: 200px; */
+  user-select: none;
+}
+
+.cardMain:hover {
+  background-color: #a8df8e;
+  border: 1px solid #a8df8e;
+}
+
+.cardName {
+  margin: 0px;
+}
+
+.cardUsername {
+  font-size: 14px;
+  color: #5c5470;
+}
