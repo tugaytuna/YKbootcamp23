@@ -1,0 +1,21 @@
+.data1 {
+  text-align: center;
+  background-color: lightblue;
+  margin: 0px;
+  padding: 2px;
+}
+
+.data2 {
+  padding: 2px;
+  margin: 0px;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.imgFlag {
+  text-align: center;
+}
+
+.imgFlag img {
+  height: 150px;
+}
