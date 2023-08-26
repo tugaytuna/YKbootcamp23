@@ -7,13 +7,17 @@ body {
 }
 
 .layoutMain h1 {
-  text-align: left;
+  text-align: center;
+  margin: 30px 0px 10px 0px;
+  font-size: 42px;
 }
 .layoutMain nav {
+  margin: 0px;
   text-align: center;
 }
 
 .layoutMain nav ul {
+  margin: 0px;
   list-style-type: none;
   display: inline-flex;
 }
@@ -21,10 +25,16 @@ body {
 .layoutMain nav ul li {
   margin: 10px;
   background-color: black;
-  padding: 10px;
+  padding: 10px 20px;
   color: white;
+  border-radius: 10px;
+}
+
+.layoutMain nav ul li:hover {
+  background-color: rgb(90, 88, 88);
 }
 
 .link1 {
   text-decoration: none;
+  color: white;
 }

@@ -5,6 +5,10 @@
   border-radius: 20px;
   margin: 10px;
   width: 150px;
+  user-select: none;
+}
+.SearchMainClass:hover {
+  background-color: #61899b;
 }
 
 .SearchMainClass .title {

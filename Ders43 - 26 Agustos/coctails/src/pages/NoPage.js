@@ -1,7 +1,7 @@
 import React from "react";
 
 function NoPage() {
-  return <div>Sayfa Bulunamadı...</div>;
+  return <div>Page not found...</div>;
 }
 
 export default NoPage;

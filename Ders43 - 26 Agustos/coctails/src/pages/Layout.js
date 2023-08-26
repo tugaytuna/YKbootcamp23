@@ -9,13 +9,19 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link className="link1" to="/">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/blogs">Sayfa</Link>
+            <Link className="link1" to="/blogs">
+              Favorite
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link className="link1" to="/contact">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>
