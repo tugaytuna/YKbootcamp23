@@ -1,0 +1,30 @@
+body {
+  background-color: #adc4ce;
+  /* text-align: center; */
+}
+
+.layoutMain {
+}
+
+.layoutMain h1 {
+  text-align: left;
+}
+.layoutMain nav {
+  text-align: center;
+}
+
+.layoutMain nav ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.layoutMain nav ul li {
+  margin: 10px;
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+
+.link1 {
+  text-decoration: none;
+}

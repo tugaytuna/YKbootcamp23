@@ -1,0 +1,27 @@
+.SearchMainClass {
+  background-color: #96b6c5;
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 10px;
+  width: 150px;
+}
+
+.SearchMainClass .title {
+  margin: 10px 10px 0px 10px;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #374259;
+}
+
+.SearchMainClass img {
+  height: 150px;
+  width: 130px;
+  border-radius: 20px;
+  margin: 10px;
+  /* box-shadow: 1px 1px 10px rgb(205, 240, 52); */
+
+  /* border: 1px solid rgb(107, 105, 105); */
+}
