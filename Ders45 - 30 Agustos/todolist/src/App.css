@@ -1,0 +1,26 @@
+.appMain {
+  background-color: #679186;
+  text-align: center;
+  /* margin: 200px; */
+  padding: 50px;
+}
+
+.appMain button {
+  /* padding: 10px 20px; */
+  height: 40px;
+  width: 85px;
+  margin-left: 5px;
+}
+
+.appMain input {
+  margin: 10px;
+  height: 40px;
+  width: 400px;
+  text-align: center;
+  /* border: 0px solid black; */
+  font-size: 20px;
+}
+
+.appMain h1 {
+  color: white;
+}

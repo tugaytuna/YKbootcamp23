@@ -1,0 +1,25 @@
+.taskMain {
+  background-color: #264e70;
+  width: 500px;
+  /* margin: 10px 200px; */
+  padding: 5px;
+  display: inline-flex;
+  margin-bottom: 30px;
+}
+
+.taskMain input {
+  flex: 0.2;
+  margin: 5px;
+}
+.taskMain label {
+  margin-left: 5px;
+  margin-top: 8px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.understrike {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
