@@ -1,15 +1,26 @@
 import "./App.css";
 import Task from "./components/Task";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [input1Value, setInput1Value] = useState("");
+  const [completedTasks, setCompletedTasks] = useState(0);
 
   const [tasks, setTasks] = useState([
     { id: 1, task: "Github'a Proje Ekle", done: true },
     { id: 2, task: "Javascript Öğren", done: false },
     { id: 3, task: "C# Öğren", done: false },
   ]);
+
+  useEffect(() => {
+    let tempCounter = 0;
+    tasks.map((item) => {
+      if (item.done) {
+        tempCounter += 1;
+      }
+    });
+    setCompletedTasks(tempCounter);
+  }, [tasks]);
 
   function saveTask() {
     let tempTask = { id: tasks.length + 1, task: input1Value, done: false };
@@ -20,19 +31,26 @@ function App() {
   function doneTask(value, id) {
     // console.log("changed", value, id);
 
+    let tempTask = [];
     tasks.map((task) => {
       if (task.id == id) {
-        console.log(task);
+        let temp2 = task;
+        temp2.done = value;
+        tempTask.push(temp2);
+      } else {
+        tempTask.push(task);
       }
     });
+    setTasks(tempTask);
   }
 
   return (
     <div className="appMain">
       <h1>To-Do List App</h1>
 
-      {tasks.map((item) => (
+      {tasks.map((item, index) => (
         <Task
+          key={index}
           taskname={item.task}
           done={item.done}
           id={item.id}
@@ -49,6 +67,10 @@ function App() {
         placeholder="write your task..."
       />
       <button onClick={saveTask}>Add Task</button>
+      <br />
+      <label htmlFor="">Total Tasks: {tasks.length}</label>
+      <br />
+      <label htmlFor="">Completed Tasks: {completedTasks}</label>
     </div>
   );
 }

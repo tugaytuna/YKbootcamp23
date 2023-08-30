@@ -15,7 +15,7 @@ function Task({ taskname, done = false, id, func }) {
         type="checkbox"
         id={id}
       />
-      <label className={done && "understrike"} htmlFor={id}>
+      <label className={done ? "understrike" : ""} htmlFor={id}>
         {taskname}
       </label>
     </div>
