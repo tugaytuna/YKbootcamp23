@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Development\\YKbootcamp23\\Ders49 - 5 Eylul\\Ders49 - 5 Eylul.csproj": {}
+  },
+  "projects": {
+    "F:\\Development\\YKbootcamp23\\Ders49 - 5 Eylul\\Ders49 - 5 Eylul.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Development\\YKbootcamp23\\Ders49 - 5 Eylul\\Ders49 - 5 Eylul.csproj",
+        "projectName": "Ders49 - 5 Eylul",
+        "projectPath": "F:\\Development\\YKbootcamp23\\Ders49 - 5 Eylul\\Ders49 - 5 Eylul.csproj",
+        "packagesPath": "C:\\Users\\tugay\\.nuget\\packages\\",
+        "outputPath": "F:\\Development\\YKbootcamp23\\Ders49 - 5 Eylul\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tugay\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

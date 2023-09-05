@@ -1,0 +1,15 @@
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\bin\Debug\net6.0\Ders49 - 5 Eylul.exe
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\bin\Debug\net6.0\Ders49 - 5 Eylul.deps.json
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\bin\Debug\net6.0\Ders49 - 5 Eylul.runtimeconfig.json
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\bin\Debug\net6.0\Ders49 - 5 Eylul.dll
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\bin\Debug\net6.0\Ders49 - 5 Eylul.pdb
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\Ders49 - 5 Eylul.csproj.AssemblyReference.cache
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\Ders49 - 5 Eylul.GeneratedMSBuildEditorConfig.editorconfig
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\Ders49 - 5 Eylul.AssemblyInfoInputs.cache
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\Ders49 - 5 Eylul.AssemblyInfo.cs
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\Ders49 - 5 Eylul.csproj.CoreCompileInputs.cache
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\Ders49 - 5 Eylul.dll
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\refint\Ders49 - 5 Eylul.dll
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\Ders49 - 5 Eylul.pdb
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\Ders49 - 5 Eylul.genruntimeconfig.cache
+F:\Development\YKbootcamp23\Ders49 - 5 Eylul\obj\Debug\net6.0\ref\Ders49 - 5 Eylul.dll
